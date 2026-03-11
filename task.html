@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container {
+            height: 600px;
+            width: 1050px;
+            background-color: black;
+            margin: 50px auto;
+            display: flex;
+        }
+        #container>#box1 {
+            height: 600px;
+            width: 33.33%;
+            background-color: rgb(218, 115, 18);
+        }
+        #container>#box2 {
+            height: 600px;
+            width: 33.33%;
+            background-color: rgb(54, 116, 230);
+        }
+        #container>#box3 {
+            height: 600px;
+            width: 33.33%;
+            background-color: rgb(16, 46, 47);
+        }
+        #container #icon_circle {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            background-color: lightgray;
+            margin: 50px;
+        }
+        i {
+            margin-left: 30px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        #container #car_name {
+            color: white;
+            font-size: 30px;
+            margin-left: 50px;
+            font-family: 'Times New Roman';
+        }
+        #container #car_details {
+            color: white;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-top: 30px;
+            width: 80%;
+            line-height: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #container #learn_btn {
+            margin-left: 50px;
+            margin-top: 50px;
+            height: 40px;
+            width: 120px;
+            
+            font-size: 15px;
+            border-radius: 25%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <h1 id="car_name">SEDANS</h1>
+            <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est sequi, officia vel error suscipit repellat mollitia similique dolores delectus. Mollitia, delectus eos. Id maxime sint unde ipsam, nulla dolor!
+            </p>
+            <button id="learn_btn" style="color: rgb(218, 115, 18);">Learn More</button>
+        </div>
+        <div id="box2">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <h1 id="car_name">SUV</h1>
+            <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est sequi, officia vel error suscipit repellat mollitia similique dolores delectus. Mollitia, delectus eos. Id maxime sint unde ipsam, nulla dolor!
+            </p>
+            <button id="learn_btn" style="color: rgb(54, 116, 230);">Learn More</button>
+        </div>
+        <div id="box3">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <h1 id="car_name">LUXURY</h1>
+            <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est sequi, officia vel error suscipit repellat mollitia similique dolores delectus. Mollitia, delectus eos. Id maxime sint unde ipsam, nulla dolor!
+            </p>
+            <button id="learn_btn" style="color: rgb(16, 46, 47);">Learn More</button>
+        </div>
+    </div>
+</body>
+</html>
